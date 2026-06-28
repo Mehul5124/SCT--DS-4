@@ -1,0 +1,25 @@
+# 1. DATASET FILES (Prevents any CSV/Data files from being uploaded)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.zip
+*.gz
+*.parquet
+
+# 2. JUPYTER NOTEBOOK CACHE (Prevents junk files)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+__pycache__/
+*.pyc
+
+# 3. GENERATED OUTPUTS (Optional: If you don't want to upload images/HTML maps)
+*.png
+*.jpg
+*.jpeg
+*.html
+
+# 4. ENVIRONMENT FILES (Keeps things clean)
+.env
+venv/
+env/
